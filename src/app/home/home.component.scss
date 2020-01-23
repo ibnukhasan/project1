@@ -1,66 +1,14 @@
-.card-{
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: auto;
-  grid-auto-rows: 1px
-}
-
-.card .foto img {
-  padding: 24px;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border: 5px psolid #52514b;
-  -webkit-boax-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-
-.card-image {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: auto;}
-  .body .foto img {
-    padding: 24px;
-    width: 25px;
-    height: 200px;
-    object-fit: cover;
-    display: grid;
-    display: grid;
-  }
-
 .card{
-    padding: 24px;
-    width: 25px;
-    height: 200px;
-    object-fit: cover;
-    border: 5px solid #52514b;
-    -webkit-boax-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  }
-  
-  .card {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;}
-
-    .body .foto img {
-      padding: 24px;
-      width: 25px;
-      height: 200px;
-      object-fit: cover;
-      border: 5px solid #52514b;  
-    }
-.foto {
-  /* border: 1px solid black; */
-  margin: 10px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: #fff555;
+  height: 400px;
+  width: 300px;
 }
-.p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-text-align: center}
+.card-image{
+padding: 5px;
+height: 300px;
+width: 200px; 
+}
+.row{
+  height: 200;
+width: 200;
+float: left;
+}
